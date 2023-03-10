@@ -1,17 +1,9 @@
-/*
-#header {}
 
-#logo {
-  margin-right: 100px;
-  margin-top: 1px;
+.navbar-brand a image{
+margin: 20px;
+padding: 20px;
 }
-
-p {
-  color: rgb(1, 22, 22);
-  font-size: 80px;
-  margin: 500;
-  padding: 50px;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.row{
+  background-color: rgba(82, 110, 102, 0.74);
+  padding: 30px 110px;
 }
-*/

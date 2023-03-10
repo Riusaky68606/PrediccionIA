@@ -4,8 +4,9 @@ import { EnviarDatosComponent } from './components/enviar-datos/enviar-datos.com
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-{path: 'inicio',component:HomeComponent},
-{path:'prediccion',component:EnviarDatosComponent}
+  { path: 'inicio', component: HomeComponent },
+  { path: 'prediccion', component: EnviarDatosComponent },
+  { path: '', component: HomeComponent }
 
 
 ];

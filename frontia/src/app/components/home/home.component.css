@@ -3,20 +3,19 @@ h1 {
     font-size: 36px;
     color: #333;
     text-align: center;
+    padding-top: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .carousel {
     margin: auto;
-    
     width: 600px;
     padding: 10px;
-    
-
 }
 
 .carousel-item img {
+    height: 10%;
     /* Altura de las imágenes */
     object-fit: cover;
     /* Ajuste de la imagen al tamaño del contenedor */
@@ -84,6 +83,11 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
+    text-align: center;
+    /*Centra el texto*/
+    text-align: justify;
+    /*Justifica el texto*/
+
 }
 
 /* Estilos para la lista de integrantes */
@@ -105,4 +109,14 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+body {
+    height: 100%;
+    /*Para poner sombras izquiedo y derecho*/
+    box-shadow: 12px 0 5px -5px rgba(0, 0, 0, 0.5) inset, -12px 0 5px -5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.info-home{
+    padding: 20px;
 }
